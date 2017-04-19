@@ -2,11 +2,11 @@ import {connect} from 'react-redux';
 import {toggleUiItemAction} from '../actions';
 import AppLayout from '../components/AppLayout';
 
-const mapStateToProps = (state, ownProps) => {
+const mapStateToProps = (state) => {
   return {
-    drawerActive: ownProps.filter === state.ui.drawerActive,
-    drawerPinned: ownProps.filter === state.ui.drawerPinned,
-    sidebarPinned: ownProps.filter === state.ui.sidebarPinned,
+    drawerActive: state.ui.drawerActive,
+    drawerPinned: state.ui.drawerPinned,
+    sidebarPinned: state.ui.sidebarPinned,
   };
 };
 
