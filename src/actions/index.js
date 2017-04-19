@@ -20,3 +20,10 @@ export const toggleTodo = (id) => {
     id,
   };
 };
+
+export const toggleUiItemAction = (item) => {
+  return {
+    type: 'TOGGLE_UI_ITEM',
+    item,
+  };
+};
