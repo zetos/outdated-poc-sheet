@@ -46,6 +46,13 @@ module.exports = {
                     'postcss-loader', // Has separate config, see postcss.config.js
                 ],
             },
+            {
+                test: /\.(gif|png|jpe?g|svg)$/i, // /\.(png|jpg)$/
+                use: [{
+                    loader: 'url-loader',
+                    options: {limit: 25000}, // Convert images < 25k to base64 strings
+                }],
+                },
         ],
     },
     devServer: {
