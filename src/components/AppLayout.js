@@ -1,5 +1,6 @@
 import React, {PropTypes} from 'react';
 import {AppBar, Checkbox, IconButton, Layout, NavDrawer, Panel, Sidebar} from 'react-toolbox';
+import SheetCard from './Sheet/SheetCard';
 
 const AppLayout = ({drawerActive, drawerPinned, sidebarPinned, toggleUiItem}) => (
     <Layout>
@@ -17,6 +18,7 @@ const AppLayout = ({drawerActive, drawerPinned, sidebarPinned, toggleUiItem}) =>
                 <p>Main content goes here.</p>
                 <Checkbox label='Pin drawer' checked={drawerPinned} onChange={()=>toggleUiItem('DrawerPinned')} />
                 <Checkbox label='Show sidebar' checked={sidebarPinned} onChange={()=>toggleUiItem('SidebarPinned')} />
+                <SheetCard />
             </div>
         </Panel>
         <Sidebar pinned={sidebarPinned} width={5}>
