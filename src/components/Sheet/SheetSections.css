@@ -1,16 +1,12 @@
 .fields {
     margin-right: 5%;
-    margin-bottom: 5%;
+    margin-bottom: 1%;
     width: 33.33%;
-    /*background-color: rebeccapurple;*/
-    /*display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;*/
 }
 
 section {
-    /*background-color: brown;*/
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
+    margin-bottom: 2%;
 }
