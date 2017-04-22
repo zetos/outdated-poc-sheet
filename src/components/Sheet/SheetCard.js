@@ -23,8 +23,6 @@ const SheetCard = () => (
     />
     <CardText>
       <SheetSections />
-      Second:
-      <SheetSections />
     </CardText>
     <CardActions>
       CardActions
