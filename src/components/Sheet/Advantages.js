@@ -1,4 +1,5 @@
-import React, {PropTypes} from 'react';
+import React from 'react';
+import PropTypes from 'prop-types';
 import Input from 'react-toolbox/lib/input';
 import Slider from 'react-toolbox/lib/slider';
 

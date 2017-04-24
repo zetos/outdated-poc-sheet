@@ -1,4 +1,5 @@
-import React, {PropTypes} from 'react';
+import React from 'react';
+import PropTypes from 'prop-types';
 import {AppBar, Checkbox, IconButton, Layout, NavDrawer, Panel, Sidebar} from 'react-toolbox';
 import SheetCard from './Sheet/SheetCard';
 
