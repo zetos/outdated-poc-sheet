@@ -1,0 +1,12 @@
+.fields {
+    margin-right: 5%;
+    margin-bottom: 1%;
+    width: 33.33%;
+}
+
+section {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    margin-bottom: 2%;
+}
