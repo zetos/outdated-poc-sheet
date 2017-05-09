@@ -4,7 +4,7 @@ import Input from 'react-toolbox/lib/input';
 import Slider from 'react-toolbox/lib/slider';
 import Dropdown from 'react-toolbox/lib/dropdown';
 
-import styles from './SheetSections.css';
+import styles from './CharacterSheetForm.css';
 
  const healthLevels = [ // TODO transform healthLevels into a prop.
     {value: 'Bruised', label: 'Bruised'},

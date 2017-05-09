@@ -1,7 +1,7 @@
 import React from 'react';
 import Input from 'react-toolbox/lib/input';
 
-import styles from './SheetSections.css';
+import styles from './CharacterSheetForm.css';
 
 const FirstSectionFieldOne = () => (
       <div className={styles.fields}>

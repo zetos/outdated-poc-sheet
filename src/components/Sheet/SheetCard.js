@@ -4,7 +4,7 @@ import {Card, CardMedia, CardTitle, CardText, CardActions} from 'react-toolbox/l
 
 // import styles from './SheetCard.css';
 import samanthaLips from '../../assets/samantha_lips02.jpg';
-import SheetSections from './SheetSections.js';
+import CharacterSheetForm from './CharacterSheetForm.js';
 
 const SheetCard = () => (
   <Card style={{width: '100%'}}>
@@ -20,7 +20,7 @@ const SheetCard = () => (
       title="Vampire the Masquerade - Character Sheet"
     />
     <CardText>
-      <SheetSections />
+      <CharacterSheetForm />
     </CardText>
     <CardActions>
       CardActions

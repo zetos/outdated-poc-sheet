@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 import Input from 'react-toolbox/lib/input';
 import Slider from 'react-toolbox/lib/slider';
 
-import styles from './SheetSections.css';
+import styles from './CharacterSheetForm.css';
 
 const BackgroundsField = ({handleSliderChange}) => (
   <div className={styles.fields}>

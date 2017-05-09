@@ -2,7 +2,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import Slider from 'react-toolbox/lib/slider';
 
-import styles from './SheetSections.css';
+import styles from './CharacterSheetForm.css';
 
 const TalentsField = ({handleSliderChange}) => (
   <div className={styles.fields}>
